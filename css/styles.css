@@ -1,58 +1,15 @@
-h1.heading {
-  /*font-family: 'Questrial', sans-serif;
-  font-family: 'Nosifer', cursive;
-  font-family: 'PT Sans Narrow', sans-serif;*/
-  font-family: 'Pacifico', cursive;
-  font-size:72px;
-}
 body {
 	margin:0;
   padding:0px;
 	background-color: #eee;
+
 }
+
 body,td,th {
 	font-family: arial, helvetica, sans-serif;
 	font-size: 14px;
-	color: #000000;
-}
-a {
-  color: #000000;
-}
-a:hover {
-	color: #F51FF0;
-}
-h2.heading {
-  font-family: 'Questrial', sans-serif;
-  font-size:42px;
-  border-bottom:2px solid #000000;
-}
-p::first-word {
-  font-variant-caps: small-caps;
-  color: red;
-}
-.strong {
-  font-weight:bold;
-}
-#contactSection {
   line-height:2em; 
-  font-size:14px;
-}
-.behanceEntry {
-  width:200px; 
-  height:188px; 
-  overflow:hidden; 
-  float:right; 
-  margin-right:50px; 
-  display:inline-block;
-}
-#wrapper {
-  max-width:900px;
-  /*padding:50px;*/
-  margin:0 auto;
-}
-#resumeSection h1 {
-  font-size:36px;
-  line-height: 24px;
+	color: #000000;
 }
 nav {
  text-align: center;
@@ -61,9 +18,71 @@ nav {
 nav ul li {
       display:inline-block;
       padding:10px;
+      font-size:18px;
 }
 
 header, footer {
   text-align:center;
-  border-top:2px solid #000000;
+  border-top: 5px solid #000000;
+}
+header {
+  border-bottom: 5px solid #000000;
+}
+#title {
+  max-width:900px;
+}
+
+#wrapper {
+  max-width:900px;
+  /*padding:50px;*/
+  margin:0 auto;
+}
+
+#portfolioSection {
+  min-height:700px;
+}
+
+h1.heading {
+  /*font-family: 'Questrial', sans-serif;
+  font-family: 'Nosifer', cursive;
+  font-family: 'PT Sans Narrow', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
+  font-size:48px;
+  font-weight:bold;
+  text-align:left;
+  margin:0 0 0 20px;
+  padding:20px 0px 100px 0px;
+}
+
+h2.heading {
+  font-family: 'Roboto', sans-serif;
+  font-size:28px;
+  font-weight: bold;
+  border-bottom:2px solid #cccccc;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #F51FF0;
+}
+p {line-height:1.3em;}
+p::first-word {
+  font-variant-caps: small-caps;
+  color: red;
+}
+
+.strong {
+  font-weight:bold;
+}
+
+.behanceEntry {
+  width:200px; 
+  height:188px; 
+  overflow:hidden; 
+  float:right; 
+  margin-right:50px; 
+  display:inline-block;
 }
